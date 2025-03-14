@@ -1,0 +1,120 @@
+/* Global styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    color: #333;
+}
+
+/* Header style */
+header {
+    background-color: #000;
+    color: white;
+    padding: 30px 0;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+}
+
+/* Section styles */
+section {
+    padding: 40px 20px;
+    margin: 20px 0;
+    background-color: #f7f7f7;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    font-size: 2rem;
+    color: #000;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+section p {
+    line-height: 1.8;
+    font-size: 1.1rem;
+    color: #444;
+}
+
+section ul {
+    font-size: 1.1rem;
+    color: #444;
+    margin: 20px 0;
+}
+
+section ul li {
+    margin-bottom: 10px;
+}
+
+/* Content layout */
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.column {
+    flex: 1 1 45%;
+    margin: 10px 0;
+}
+
+.column img {
+    max-width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Priorities and advocating section */
+.priorities, .advocating {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.column h3 {
+    font-size: 1.6rem;
+    color: #000;
+}
+
+.column p {
+    color: #666;
+    font-size: 1rem;
+}
+
+/* Footer */
+footer {
+    background-color: #000;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* Responsive design */
+@media screen and (max-width: 768px) {
+    .content {
+        flex-direction: column;
+    }
+
+    .column {
+        flex: 1 1 100%;
+    }
+
+    .priorities, .advocating {
+        flex-direction: column;
+    }
+
+    .column h3 {
+        font-size: 1.4rem;
+    }
+}
