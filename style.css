@@ -1,120 +1,52 @@
-/* Global styles */
+/* General Styles */
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #fff;
-    color: #333;
+    background-color: #222; /* Darker background */
+    color: #fff; /* Light text */
 }
 
-/* Header style */
+/* Header */
 header {
     background-color: #000;
     color: white;
-    padding: 30px 0;
+    padding: 20px;
     text-align: center;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-header h1 {
-    font-size: 2.5rem;
-    letter-spacing: 2px;
-}
-
-/* Section styles */
+/* Sections */
 section {
-    padding: 40px 20px;
-    margin: 20px 0;
-    background-color: #f7f7f7;
-    border-radius: 8px;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px;
+    background-color: #333;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(255, 255, 255, 0.1);
 }
 
-section h2 {
-    font-size: 2rem;
-    color: #000;
-    margin-bottom: 20px;
-    text-transform: uppercase;
-    letter-spacing: 1px;
+/* Headings */
+h1 {
+    color: white;
 }
 
-section p {
-    line-height: 1.8;
-    font-size: 1.1rem;
-    color: #444;
+h2 {
+    color: #ccc;
 }
 
-section ul {
-    font-size: 1.1rem;
-    color: #444;
-    margin: 20px 0;
-}
-
-section ul li {
-    margin-bottom: 10px;
-}
-
-/* Content layout */
-.content {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-top: 20px;
-}
-
-.column {
-    flex: 1 1 45%;
-    margin: 10px 0;
-}
-
-.column img {
-    max-width: 100%;
-    border-radius: 8px;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-}
-
-/* Priorities and advocating section */
-.priorities, .advocating {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-top: 30px;
-}
-
-.column h3 {
-    font-size: 1.6rem;
-    color: #000;
-}
-
-.column p {
-    color: #666;
-    font-size: 1rem;
+/* Custom Styling for DevOps Heading */
+h2.white-text {
+    color: white;
+    background-color: #444;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
 }
 
 /* Footer */
 footer {
     background-color: #000;
     color: white;
-    padding: 15px 0;
+    padding: 10px;
     text-align: center;
-    margin-top: 30px;
-}
-
-/* Responsive design */
-@media screen and (max-width: 768px) {
-    .content {
-        flex-direction: column;
-    }
-
-    .column {
-        flex: 1 1 100%;
-    }
-
-    .priorities, .advocating {
-        flex-direction: column;
-    }
-
-    .column h3 {
-        font-size: 1.4rem;
-    }
 }
