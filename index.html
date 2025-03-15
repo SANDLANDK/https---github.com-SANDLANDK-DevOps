@@ -1,10 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Digital Environment Strategy</title>
-    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        section {
+            padding: 20px;
+            margin: 20px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            color: #333;
+        }
+        img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+        .content {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        .column {
+            flex: 1;
+            margin: 10px;
+        }
+        .priorities, .advocating {
+            display: flex;
+            justify-content: space-between;
+        }
+        .footer {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
 
@@ -13,29 +61,56 @@
 </header>
 
 <section id="DevOps">
-    <h2 class="white-text">Focal Points for DevOps Team</h2>
-    <h3>Lead Architect for Development Operations</h3>
-    <p>As the lead architect on my company's development operations (DevOps) team, I’ve been tasked with creating a document that presents the strategic focal points in the development of a digital environment. My goal is to demonstrate what I would prioritize of the four key areas and advocate for during the project life cycle.</p>
+    <h2>Lead Architect for Developemnt Operations</h2>
+    <p>As the lead architect on my company's development operations (DevOps) team, I’ve been tasked with creating a document that presents the strategic focal points in the development of a digital environment. My goal is to demonstrate what I would prioritize of the four key areas and advocate for during the project life cycle. </p>
+    <div class="content">
+        <div class="column">
+        </div>
+    </div>
 </section>
 
 <section id="system-design">
     <h2>Systems Design, Engineering, and Organization</h2>
     <p>System designs are a process by which things are made, incorporating principles such as function, ergonomics, coherence, resilience, and understandability. Engineering ensures systems are built strong and perform as expected, while organization uses conceptual structures to guide user interaction.</p>
+    <div class="content">
+        <div class="column">
+            <h3>System Engineering</h3>
+            <img src="/Users/kaylajustinesandland/Documents/DEVOPS/images/Screenshot 2025-03-13 at 11.39.00 PM.png" alt="System Engineering Depiction, Defining a System, n.d.">
+        </div>
+    </div>
 </section>
 
 <section id="content-architecture">
     <h2>Content and Information Architecture</h2>
     <p>Content drives the user experience, making it crucial to design effective and engaging content. Information Architecture (IA) ensures content is findable and understandable, improving navigation and supporting business goals.</p>
+    <div class="content">
+        <div class="column">
+            <h3>Content Example: The Sun</h3>
+            <img src="/Users/kaylajustinesandland/Documents/DEVOPS/images/Thesun.jpg" alt="The Sun Advertisement, Arango, 2018, pg. 53">
+        </div>
+    </div>
 </section>
 
 <section id="ux-visual">
     <h2>User Experience and Visual Design</h2>
     <p>User experience focuses on creating meaningful and relevant experiences, ensuring users enjoy their time on the site. Visual design, through principles like color, contrast, and balance, enhances the site's aesthetic and usability.</p>
+    <div class="content">
+        <div class="column">
+            <h3>Visual Design Principles</h3>
+            <img src="/Users/kaylajustinesandland/Documents/DEVOPS/images/vD.png" alt="Visual Design Principles, Interaction Design Foundation, 2024d">
+        </div>
+    </div>
 </section>
 
 <section id="infrastructure">
     <h2>Infrastructure and Sustainability</h2>
     <p>Sustainability ensures digital environments remain adaptable to changing conditions, much like real-world structures. Infrastructure must evolve to meet new demands, enabling continuous improvement and long-term viability.</p>
+    <div class="content">
+        <div class="column">
+            <h3>Computer Code Example</h3>
+            <img src="/Users/kaylajustinesandland/Documents/DEVOPS/images/markus-spiske-iar-afB0QQw-unsplash.jpg" alt="Depiction of Computer Code, Rolfe, 2023">
+        </div>
+    </div>
 </section>
 
 <section id="priorities">
@@ -48,7 +123,30 @@
     </ul>
 </section>
 
-<footer>
+<section id="advocating">
+    <h2>Advocating for Priorities</h2>
+    <p>I advocate for the following priorities:</p>
+    <div class="priorities">
+        <div class="column">
+            <h3>1. Systems Design, Engineering, and Organization</h3>
+            <p>This is the foundation, ensuring all parts of the project are planned and organized effectively.</p>
+        </div>
+        <div class="column">
+            <h3>2. Content and Information Architecture</h3>
+            <p>Content is king, and IA ensures it is presented in the most understandable and engaging way.</p>
+        </div>
+        <div class="column">
+            <h3>3. User Experience and Visual Design</h3>
+            <p>Once the foundation and content are set, UX and visual design ensure a pleasant user experience.</p>
+        </div>
+        <div class="column">
+            <h3>4. Infrastructure and Sustainability</h3>
+            <p>Long-term sustainability ensures the system can adapt to future challenges and needs.</p>
+        </div>
+    </div>
+</section>
+
+<footer class="footer">
     <p>© 2025 Digital Environment Strategy</p>
 </footer>
 
